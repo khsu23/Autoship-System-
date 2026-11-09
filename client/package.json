@@ -1,0 +1,9 @@
+{
+  "name": "@chewy-autoship/client",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "tsc --noEmit && vite build" },
+  "dependencies": { "@reduxjs/toolkit": "latest", "@vitejs/plugin-react": "latest", "react": "latest", "react-dom": "latest", "react-redux": "latest", "react-router-dom": "latest", "vite": "latest" },
+  "devDependencies": { "@types/react": "latest", "@types/react-dom": "latest", "autoprefixer": "latest", "postcss": "latest", "tailwindcss": "^3.4.17", "typescript": "latest" }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@chewy-autoship/server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "tsx watch src/index.ts", "build": "tsc", "start": "node dist/index.js", "test": "vitest run ./src/promotion/calculatePrice.test.ts ./src/promotion/redeem.test.ts ./src/lifecycle/service.test.ts ./src/rag/policyParser.test.ts ./src/agent/assistant.test.ts", "ingest": "tsx src/rag/ingest.ts" },
+  "dependencies": { "dotenv": "latest", "express": "latest", "pg": "latest", "zod": "latest" },
+  "devDependencies": { "@types/express": "latest", "@types/pg": "latest", "@types/supertest": "latest", "supertest": "latest", "tsx": "latest", "typescript": "latest", "vitest": "latest" }
+}
